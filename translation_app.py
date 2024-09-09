@@ -4,7 +4,7 @@ import csv
 import os
 
 # Define the FastAPI server URL
-API_URL = "http://localhost:8000"  # Replace with your FastAPI server URL and port
+API_URL = "https://suited-rat-famous.ngrok-free.app"  # Replace with your FastAPI server URL and port
 
 # Function to send a translation request to the FastAPI backend
 def translate(text, model):
