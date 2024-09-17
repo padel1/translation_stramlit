@@ -4,7 +4,7 @@ import csv
 import os
 
 # Define the FastAPI server URL
-API_URL = "https://suited-rat-famous.ngrok-free.app"  # Replace with your FastAPI server URL and port
+API_URL = "https://partly-gentle-mollusk.ngrok-free.app/"  # Replace with your FastAPI server URL and port
 
 def get_saved_translations():
     endpoint = f"{API_URL}/get_translations"  # FastAPI endpoint for retrieving translations
