@@ -3,7 +3,7 @@ import aiohttp
 import asyncio
 
 # Define the FastAPI server URL
-API_URL = "https://partly-gentle-mollusk.ngrok-free.app/"  # Replace with your FastAPI server URL and port
+API_URL = "https://partly-gentle-mollusk.ngrok-free.app"  # Replace with your FastAPI server URL and port
 
 async def get_saved_translations():
     async with aiohttp.ClientSession() as session:
