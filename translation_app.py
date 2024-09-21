@@ -38,7 +38,7 @@ def run_async_tasks(async_func, *args):
 st.title("Translation Model Tester")
 
 # Model selection
-model = st.selectbox("Choose a model:", ("ar_en", "darija", "en_ar", "fr_en", "en_fr"))
+model = st.selectbox("Choose a model:", ("ar_en","en_ar","darija_en","en_darija",  "fr_en", "en_fr"))
 
 # Text input
 text_input = st.text_area("Enter text to translate:")
